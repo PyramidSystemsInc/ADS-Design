@@ -25,3 +25,20 @@ For people who want to find over-the-counter medications free of certain ingredi
 2. Screenshots:
 3. Mockups:
 4. Notes:
+
+# Design/Development Notes
+
+Daily standup meeting 6/22/15:
+
+- Decision about single-page/multi-page application
+   - Basic user needs can be supported in either approach
+   - Single-page avoids some development overhead
+   - Multi-page allows flows to be developed more flexibly
+   - Current flows are not solid, heavily dependent on technical limitations + results of usability sessions
+   - Therefore, going with a multi-page system
+- Discussed current work
+   - Limitations of FDA API: no ability to query possible values for fields directly, noisy data, no disambiguation support natively
+   - Hooking up initial search results for a basic prototype, in order to support user feedback and testing
+   - Infrastructure continues to be built out
+   - Initial wireframes for the prototype and system flow given above information
+   - Query construction for future queries
