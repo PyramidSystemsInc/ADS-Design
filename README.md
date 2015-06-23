@@ -1,9 +1,24 @@
-# ADS RFQ Pool One Design
-Prototype URL: [url goes here]
-Pool Two Repository: [url goes here]
+# ADS RFQ Pool Two Design
+[Prototype URL](http://www.google.com)
+
+[Pool Two Repository on GitHub](https://github.com/PyramidSystemsInc/ADS-Design)
+
+[Product Backlog on Trello](https://trello.com/b/S1uBdwEg/product-backlog)
 
 # Product Vision
-For people who want to find over-the-counter medications free of certain ingredients for themselves or their family. The [product name] is a responsive web app that allows people to quickly and easily check he ingredients in a certain product or find alternatives that are free of the ingredients they're concerned about.
+For people who want to find over-the-counter medications free of certain ingredients for themselves or their family. SHIELD is a simple and responsive web app that allows people to quickly and easily see if a product has an ingredient they're allergic to, or find alternatives that are safe to use.
+
+# Documentation Map
+1. Summary of Approach: README.md (this file)
+2. Labor Categories and LOE: TBD
+3. Usability Testing and Results: TBD
+4. Design Style Tile: TBD
+5. Design Techniques Used: TBD
+6. Technologies Used: TBD
+7. Prototype Creation Process Documentation: TBD
+
+# Summary of Approach
+TBD
 
 # Process Documentation
 1. Write a brief description, no greater than 750 words, of the approach used to create the working prototype.
