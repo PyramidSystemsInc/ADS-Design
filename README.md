@@ -8,7 +8,7 @@
 # Product Vision
 For people who want to find over-the-counter medications free of certain ingredients for themselves or their family. SHIELD is a simple and responsive web app that allows people to quickly and easily see if a product has an ingredient they're allergic to, or find alternatives that are safe to use.
 
-# Documentation Map
+# Documentation Guide
 1. Summary of Approach: README.md (this file)
 2. Labor Categories and LOE: TBD
 3. Usability Testing and Results: TBD
@@ -18,9 +18,13 @@ For people who want to find over-the-counter medications free of certain ingredi
 7. Prototype Creation Process Documentation: TBD
 
 # Summary of Approach
-TBD
+The first step in the creation of this prototype was an analysis of the available data sets from the FDA API, to understand the scope of problems a prototype could solve. We wrote out a set of possible user scenarios, then chose a leader who wrote out an initial product vision statement based on the most viable scenarios. Using Trello, we set up a simple [Kanban board](https://trello.com/b/S1uBdwEg/product-backlog) to track deliverables, and a design backlog of [potential user stories](https://trello.com/b/KcsLZZtj/product-roadmap) for each major scenario.
 
-# Process Documentation
+Over the course of the project, we continually revised our user stories based on our scenarios for upcoming usability tests, the capabilities of our data set and tools, and our available bandwidth. We used whiteboards to iterate quickly on our target users, screen and data flow, wireframes, choice of technologies, and any outstanding issues discussed at the daily standup/grooming meetings. Each user-facing story was written with acceptance tests and sample API queries, and was prioritized to support the milestones needed for effective user testing. 
+
+The development of the prototype was carried out using open-source or freely available tools and technologies: [INSERT TECH BLURB HERE] Usability testing was conducted with [GoToMeeting Free](http://free.gotomeeting.com) to broadcast testing sessions for remote note-taking. Digital wireframes were created in [Balsamiq](https://balsamiq.com), but stored in the repository and used as references for prototype development in PDF format, since Balsamiq is not a free tool.
+
+# Deliverables
 1. Write a brief description, no greater than 750 words, of the approach used to create the working prototype.
 2. Evidence of Playbook: Demonstrate that they followed the U.S. Digital Services Playbook by providing evidence in the repository.
 3. assigned one leader and gave that person authority and responsibility and held that person accountable for the quality of the prototype submitted
