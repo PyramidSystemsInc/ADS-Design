@@ -1,9 +1,6 @@
 # User Profiles
 
-1. Individual with an allergy
-2. Individual responsible for product selection or purchasing for another individual with an allergy
-
-Role | Needs | Knowledge | Technical Familiarity
----- | ----- | --------- | ---------------------
-User1 | Need1 | None | None
-User2 | Lots | Sure | Yeah
+Role | Needs | Knowledge | Frequency
+---- | ----- | --------- | ---------
+Individual Consumer | Purchasing advice for themselves | General ingredients, general issues/purposes, general products | Single quick visit, ad-hoc
+Family Buyer | Purchasing advice for the whole family | Multiple specific ingredients, general issues/purposes, specific products | Regular visits, building a library of ingredients and matches
