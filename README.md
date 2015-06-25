@@ -1,4 +1,4 @@
-# ADS RFQ Pool Two Design
+﻿# ADS RFQ Pool One Design
 
 ### Product Vision
 For people who want to find over-the-counter medications free of certain ingredients for themselves or their family. SHIELD  is a simple and responsive web app that allows people to quickly and easily see if a product has an ingredient they're allergic to, or find alternatives that are safe to use.
