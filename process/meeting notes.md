@@ -28,3 +28,11 @@ Daily standup meeting 6/24/15:
 
 - Next steps for dev: Detailed Product Info page, clean up data in search results, deploy on public-facing site (vs. localhost)
 - Next steps for design: Wireframe Product Info page, write Disclaimer page, clean up and transfer deliverables from whiteboard to GitHub repository
+
+Daily standup meeting 6/25/15:
+
+- Next steps for dev: Improve user interface, smarter filtering and highlighting of search results, About page
+- Next steps for design: Transfer usability info to GitHub, identify chunks of development small enough to complete before round 2 of testing
+- Next round of usability testing planned for 6/29
+- First pass of all design deliverables to be completed by 6/30
+- QA review and final submission on 6/31
