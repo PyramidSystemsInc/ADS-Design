@@ -1,32 +1,28 @@
 ﻿# ADS RFQ Pool Two Design
-[Prototype URL](http://www.google.com)
 
-
-
-
-## Product Vision
+### Product Vision
 For people who want to find over-the-counter medications free of certain ingredients for themselves or their family. SHIELD is a simple and responsive web app that allows people to quickly and easily see if a product has an ingredient they're allergic to, or find alternatives that are safe to use.
 
-## Deliverables Index
+### Deliverables Index
 1. Summary of Approach: README.md (this file)
-2. [Prototype Location](http://www.google.com): TBD
-3. [Pool Two Repository on GitHub](https://github.com/PyramidSystemsInc/ADS-Design)
+2. [Prototype Location](http://pyramidopenfdadev.herokuapp.com)
+3. [Pool One Repository on GitHub](https://github.com/PyramidSystemsInc/ADS-Design)
 4. [Product Backlog on Trello](https://trello.com/b/S1uBdwEg/product-backlog)
 5. Spreadsheet: TBD
-6. User Profiles, Process Map, Journey Map: analysis/
-7. Style Tile, Wireframes: design/
-8. Usability Testing and Results: usability/
+6. User Profiles, Scenarios, Process Map, Journey Map: /analysis/
+7. Style Tile, Wireframes: /design/
+8. Usability Testing and Results: /usability/
 9. Labor Categories and LOE: TBD
-10. Prototype Creation Process Documentation: process/
+10. Prototype Creation Process Documentation: /process/
 
-## Summary of Approach
+### Summary of Approach
 The first step in the creation of this prototype was an analysis of the available data sets from the FDA API, to understand the scope of problems a prototype could solve. We wrote out a set of possible user scenarios, then chose a leader who wrote out an initial product vision statement based on the most viable scenarios. Using Trello, we set up a simple [Kanban board](https://trello.com/b/S1uBdwEg/product-backlog) to track deliverables, and a design backlog of [potential user stories](https://trello.com/b/KcsLZZtj/product-roadmap) for each major scenario.
 
 Over the course of the project, we continually revised our user stories based on our scenarios for upcoming usability tests, the capabilities of our data set and tools, and our available bandwidth. We used whiteboards to iterate quickly on our target users, screen and data flow, wireframes, choice of technologies, and any outstanding issues discussed at the daily standup/grooming meetings. Each user-facing story was written with acceptance tests and sample API queries, and was prioritized and rapidly re-scoped to support the milestones needed for effective user testing. 
 
-The development of the prototype was carried out using open-source or freely available tools and technologies. [INSERT TECH BLURB HERE] Usability testing was conducted with [GoToMeeting Free](http://free.gotomeeting.com) to broadcast testing sessions for remote note-taking. Wireframes were created on the team whiteboard. The Style Tile was distributed in PDF format, using the publicly available [Font Awesome](http://fortawesome.github.io/Font-Awesome/) icon library and [Open Sans](https://www.google.com/fonts#UsePlace:use/Collection:Open+Sans) fonts. 
+The design and development of the prototype was carried out using open-source or freely available tools and technologies. [INSERT TECH BLURB HERE] Usability testing was conducted with [GoToMeeting Free](http://free.gotomeeting.com) to broadcast testing sessions for remote note-taking. Wireframes were created on the team's physical whiteboards. The Style Tile was distributed in PDF format, using the publicly available [Font Awesome](http://fortawesome.github.io/Font-Awesome/) icon library and [Open Sans](https://www.google.com/fonts#UsePlace:use/Collection:Open+Sans) fonts. The Process Map was recorded using [draw.io](https://www.draw.io/).
 
-## Deliverables Reference
+### Deliverables Reference
 1. Write a brief description, no greater than 750 words, of the approach used to create the working prototype.
 2. Evidence of Playbook: Demonstrate that they followed the U.S. Digital Services Playbook by providing evidence in the repository.
 3. assigned one leader and gave that person authority and responsibility and held that person accountable for the quality of the prototype submitted
