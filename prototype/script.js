@@ -1,34 +1,59 @@
 (function(angular) {
   'use strict';
-angular.module('ads-prototype', ['ngRoute']) 
- .controller('SearchController', function($scope, $routeParams) {
+angular.module('ads-prototype', ['ui.router', 'ngAnimate']) 
+ .controller('SearchController', ['$scope', '$state', 
+   function($scope, $state) {
+     var vm = this;
      $scope.name = "SearchController";
-     $scope.params = $routeParams;
- })
+     vm.viewResults = function () {
+       $state.go('products');
+     };
+ }])
  
- .controller('ProductResultsController', function($scope, $routeParams) {
+ .controller('ProductResultsController', ['$scope', '$state', 
+   function($scope, $state) {
+     var vm = this;
      $scope.name = "ProductResultsController";
-     $scope.params = $routeParams;
- })
+     vm.backToSearch = function () {
+       $state.go('search');
+     };
+     vm.viewDetail = function () {
+       $state.go('product');
+     };
+ }])
 
- .controller('ProductDetailController', function($scope, $routeParams) {
+ .controller('ProductDetailController', ['$scope', '$state', 
+   function($scope, $state) {
+     var vm = this;
      $scope.name = "ProductDetailController";
-     $scope.params = $routeParams;
- })
+     vm.backToResults = function () {
+       $state.go('products');
+     };
+ }])
 
-.config(function($routeProvider) {
-  $routeProvider
-  .when('/', {
-    templateUrl: 'search.html',
-    controller: 'SearchController'
+.config(function($stateProvider, $urlRouterProvider) {
+  $urlRouterProvider.otherwise('/search');
+  $stateProvider
+  .state('search',
+    {
+      url: '/search',
+      templateUrl: 'search.html',
+      controller: 'SearchController',
+      controllerAs: 'vm'
   })
-   .when('/Products/:query', {
-    templateUrl: 'products.html',
-    controller: 'ProductResultsController'
+  .state('products',
+    {
+      url: '/products/:query',
+      templateUrl: 'products.html',
+      controller: 'ProductResultsController',
+      controllerAs: 'vm'
   })
-  .when('/product/:id', {
-    templateUrl: 'product.html',
-    controller: 'ProductDetailController'
+  .state('product',
+    {
+      url: '/product/:id',
+      templateUrl: 'product.html',
+      controller: 'ProductDetailController',
+      controllerAs: 'vm'
   });
 });
 })(window.angular);
