@@ -15,9 +15,9 @@
 For people who want to find over-the-counter medications free of certain ingredients for themselves or their family. SHIELD  is a simple and responsive web app that allows people to quickly and easily see if a product has an ingredient they're allergic to, or find alternatives that are safe to use.
 
 ### Summary of Approach
-The first step in the creation of this prototype was an analysis of the available data sets from the FDA API, to understand the scope of problems a prototype could solve. We wrote out a set of possible user scenarios, then chose a leader (our Product Owner, as detailed in the labor categories) who wrote out an initial product vision statement based on the most viable scenarios for rapid development. Using Trello, we set up a simple [Kanban board](https://trello.com/b/S1uBdwEg/product-backlog) to track deliverables, and a design backlog of [potential user stories](https://trello.com/b/KcsLZZtj/product-roadmap) for each major scenario.
+The first step in the creation of this prototype was an analysis of the available data sets from the FDA API, to understand the scope of problems a prototype could solve. We wrote out a set of possible user scenarios, then chose a leader (our Product Owner, as detailed in the labor categories) who wrote out an initial product vision statement based on the most viable scenarios for rapid development. Using Trello, we set up a simple [Kanban board](https://trello.com/b/S1uBdwEg/product-backlog) to track deliverables, and a design backlog of [potential user stories](https://trello.com/b/KcsLZZtj/product-roadmap) for each major scenario. The design and development teams (Pool One and Pool Two) worked closely together throughout development. Initial rounds of prioritization, testing and refinement were conducted on a shared codebase, to ensure that design reflected the actual capabilities of a rapid prototype and development was focused on solving real people's needs.
 
-Over the course of the project, we continually revised our user stories based on our scenarios for upcoming usability tests, the capabilities of our data set and tools, and our available bandwidth. We used whiteboards to iterate quickly on our target users, screen and data flow, wireframes, choice of technologies, and any outstanding issues discussed at the daily standup/grooming meetings. Each user-facing story was written with acceptance tests and sample API queries, and was prioritized and rapidly re-scoped to support the milestones needed for effective user testing. The key findings from each usability test were used to prioritize subsequent user stories.
+Over the course of the project, we continually revised our user stories based on our scenarios for upcoming usability tests, the capabilities of our data set and tools, and our available bandwidth. We used whiteboards to iterate quickly on our target users, screen and data flow, wireframes, choice of technologies, and any outstanding issues discussed at the daily standup/grooming meetings. Each user-facing story was written with acceptance tests and sample API queries, and was prioritized and rapidly re-scoped to support the milestones needed for effective user testing. The key findings from each usability test were used to prioritize subsequent user stories. To ensure responsive design, usability sessions were conducted on both desktop and a variety of iOS and Android devices.
 
 Once a minimum viable product was built and tested, further prototype development concentrated on responsiveness, clarity of navigation, and a smooth user experience. Where implementation was constrained by the current API limitations, those features were added to a separate design prototype, to maintain a Pool One submission that addressed the key findings from our users. Future releases should consider additional features requested by users, such as allowing each user to build up a catalog of individually meaningful search results and filters, and should investigate the feasibility of adding other data sets that provide thesaurus or word similarity functionality.
 
@@ -27,53 +27,5 @@ The design prototype was written in [JavaScript](https://en.wikipedia.org/wiki/J
 
 Due to the short time frame of the project, testing was limited to the functional behavior of the application under ordinary use. Future releases should include reviews to ensure compliance with [Section 508](http://www.section508.gov/section-508-standards-guide#Web) and [WCAG 2.0](http://www.w3.org/TR/WCAG20/#guidelines) accessibility standards, and [Plain Language](http://www.plainlanguage.gov/howto/quickreference/weblist.cfm) readability standards, including screen reader software.
 
-### Technologies Used
-* Design
- * User Stories: [Trello](https://trello.com/)
- * Usability testing: [GoToMeeting Free](http://free.gotomeeting.com)
- * Icons: [Font Awesome](http://fortawesome.github.io/Font-Awesome/)
- * Fonts: [Open Sans](https://www.google.com/fonts#UsePlace:use/Collection:Open+Sans)
- * Flowcharts: [draw.io](https://www.draw.io/)
- * Note-taking: [Markdown](http://daringfireball.net/projects/markdown/)
-* Languages
- * [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
- * [HTML](https://en.wikipedia.org/wiki/HTML)
- * [TypeScript](http://www.typescriptlang.org/)
-* Deployment / Automation
- * [Gulp](http://gulpjs.com/)
- * [Yargs](https://www.npmjs.com/package/yargs)
- * [Uglify](http://lisperator.net/uglifyjs/)
- * [BrowserSync](http://www.browsersync.io/)
-* Frontend
- * [Bower](http://bower.io/)
- * [Bootstrap](http://getbootstrap.com)
- * [AngularJS](http://angularjs.org/)
-* Backend
- * [Node.js](https://nodejs.org/)
- * [Express](http://expressjs.com/)
-* Testing
- * [Mocha](http://mochajs.org/)
- * [Karma](http://karma-runner.github.io/)
- * [Hippie](https://github.com/vesln/hippie)
- * [Bard](https://github.com/wardbell/bardjs)
- * [PhantomJS](http://phantomjs.org/)
-* Analysis
- * [Plato](https://github.com/es-analysis/plato)
- * [jscs](https://www.npmjs.com/package/jscs) - <sub>(Artistic License 2.0)</sub>
-
-
-### Deliverables Reference
-1. Write a brief description, no greater than 750 words, of the approach used to create the working prototype.
-2. Evidence of Playbook: Demonstrate that they followed the U.S. Digital Services Playbook by providing evidence in the repository.
-3. assigned one leader and gave that person authority and responsibility and held that person accountable for the quality of the prototype submitted
-4. assembled a multidisciplinary and collaborative team that includes at a minimum three of the labor categories limited to the Design Pool Labor categories to design the prototype as quoted in Attachment C. The quoter’s proposed mix of labor categories and level of effort for its working prototype, as reflected in Attachment C, shall be evaluated to assess the quoter’s understanding and capability to supply agile delivery services.
-5. understand what people need, by including people (anyone not directly involved in the design or development of the prototype) in the prototype design process
-6. used at least three “human-centered design” techniques or tools
-7. created or used a design style guide and/or a pattern library
-8. used at least three modern (released, created, initiated or finalized in the last 5 years) and open source frontend or client side (executed within a user-agent, e.g. web browser) web technologies 
-9. performed usability tests with people
-10. used an interactive approach, where feedback informed subsequent work or versions of the prototype
-11. created a prototype that works on multiple devices and presents a responsive design
-12. provided sufficient documentation to install and run their prototype on another machine
-13. prototype and underlying platforms used to create and run the prototype are openly licensed and free of charge
-14. provided additional process documentation (photographs, screenshots, mockups, notes etc.)
+### Installation Instructions
+*(Fill out this section when the design prototype is in a more stable state.)*
