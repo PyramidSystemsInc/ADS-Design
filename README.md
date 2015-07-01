@@ -28,4 +28,8 @@ The design prototype was written in [JavaScript](https://en.wikipedia.org/wiki/J
 Due to the short time frame of the project, testing was limited to the functional behavior of the application under ordinary use. Future releases should include reviews to ensure compliance with [Section 508](http://www.section508.gov/section-508-standards-guide#Web) and [WCAG 2.0](http://www.w3.org/TR/WCAG20/#guidelines) accessibility standards, and [Plain Language](http://www.plainlanguage.gov/howto/quickreference/weblist.cfm) readability standards, including screen reader software.
 
 ### Installation Instructions
-*(Fill out this section when the design prototype is in a more stable state.)*
+In order to run the design prototype:
+1. Install [node.js](https://nodejs.org) (if not already installed)
+2. Pull this GitHub repository to a local directory 
+3. Open a command line, navigate to the /prototype directory, and run "node server.js" (without the quotation marks)
+4. Open a web browswer and navigate to localhost:8080
