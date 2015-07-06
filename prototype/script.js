@@ -18,6 +18,11 @@ angular.module('ads-prototype', ['ui.router', 'ngAnimate'])
      $http.get('data/products.json')
        .then(function(res){
           vm.data = res.data;
+          if (vm.data && vm.data.results) {
+            for (var i = 0; i < vm.data.results.length; i++) {
+              vm.data.results[i].price = vm.getPrice(vm.data.results[i].id);              
+            }
+          }
         });
      
      vm.backToSearch = function () {
@@ -26,7 +31,7 @@ angular.module('ads-prototype', ['ui.router', 'ngAnimate'])
      vm.viewDetail = function (itemId) {
        $state.go('product', {'id': itemId});
      };
-     vm.getPrice = function (itemId) {
+     vm.getPrice = function () {
        // we can decide to get price by item id later
        return '$' + (Math.floor(((Math.random() * 800) + 200))/100.0).toFixed(2); 
      };
