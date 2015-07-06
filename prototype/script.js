@@ -26,6 +26,10 @@ angular.module('ads-prototype', ['ui.router', 'ngAnimate'])
      vm.viewDetail = function (itemId) {
        $state.go('product', {'id': itemId});
      };
+     vm.getPrice = function (itemId) {
+       // we can decide to get price by item id later
+       return '$' + (Math.floor(((Math.random() * 800) + 200))/100.0).toFixed(2); 
+     };
  }])
 
  .controller('ProductDetailController', ['$scope', '$state', '$http', '$stateParams', '$window',

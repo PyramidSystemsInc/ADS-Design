@@ -7,3 +7,13 @@
 .panel-heading a.collapsed:after {
     content:"\e114";
 }
+
+.product-header {
+    font-weight: bold;
+    font-size: larger;
+    margin: 5px;
+}
+
+.productRowAlternate {
+    background: rgb(220,220,240);
+}
