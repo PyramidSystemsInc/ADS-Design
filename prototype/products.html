@@ -22,27 +22,27 @@
 				</div>
 			</div>
 			<div class="row productRowAlternate" style="margin-top: 10px;">
-				<div class="col-sm-6 col-xs-12">
+				<div class="col-sm-7 col-xs-12">
 					<span class="product-header">Product</span>
 				</div>
 				<div class="col-sm-2 col-xs-6">
 					<span class="product-header">Price
 						<span>
 				</div>
-				<div class="col-sm-4 col-xs-6 ">
+				<div class="col-sm-3 col-xs-6 ">
 					<span class="product-header">Retailer</span>
 				</div>
 			</div>
 			<div class="row" ng-repeat="x in vm.data.results" style="border: 1px solid gray;" ng-class-even="'productRowAlternate'">
-				<div class="col-sm-6 col-xs-12">
+				<div class="col-sm-7 col-xs-12">
 					<span>
-						<button class="btn-link" style="text-align:left" ng-click="vm.viewDetail(x.id)">{{x.openfda.brand_name[0]}}</button>
+						<button class="btn-link" style="text-align:left;padding:0px;border-left:0px solid white" ng-click="vm.viewDetail(x.id)">{{x.openfda.brand_name[0]}}</button>
 					</span>
 				</div>
 				<div class="col-sm-2 col-xs-6">
-					<span style="margin-left:10px">{{x.price}}</span>
+					<span>{{x.price}}</span>
 				</div>
-				<div class="col-sm-4 col-xs-6">
+				<div class="col-sm-3 col-xs-6">
 					<span>{{x.retailer}}</span>
 				</div>
 			</div>
