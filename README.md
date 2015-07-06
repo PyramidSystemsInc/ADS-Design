@@ -26,7 +26,7 @@ The design and development life cycle of the prototype was carried out using ope
 Due to time constraints, testing was limited to the functional behavior of the application under ordinary use. Future releases should include reviews to ensure compliance with [Section 508](http://www.section508.gov/section-508-standards-guide#Web) and [WCAG 2.0](http://www.w3.org/TR/WCAG20/#guidelines) accessibility standards, and [Plain Language](http://www.plainlanguage.gov/howto/quickreference/weblist.cfm) readability standards, including screen reader software.
 
 ### Installation Instructions
-In order to run the design prototype:
+In order to run the design prototype locally:
 
 1. Install [node.js](https://nodejs.org) (if not already installed)
 2. Pull this GitHub repository to a local directory 
@@ -37,4 +37,4 @@ In order to run the design prototype:
 
 ### Licensing Information
 
-This prototype is licensed under the MIT license, making it free and open; for details, see the LICENSE file. The MIT license also applies to Angular, Bootstrap, and Node, while TypeScript is used according to a similar "no-charge, royalty-free" [license](https://github.com/Microsoft/TypeScript/blob/master/LICENSE.txt). JavaScript and HTML are open standards.
+This prototype is licensed under the MIT license, making it free and open; for details, see the LICENSE file. The MIT license also applies to Angular, Bootstrap, and Node, while TypeScript is used according to a similar Apache [license](https://github.com/Microsoft/TypeScript/blob/master/LICENSE.txt). JavaScript and HTML are open standards. Stock photos used are from [Flickr](http://www.flickr.com) under the [Creative Commons NonCommercial 2.0 license](https://creativecommons.org/licenses/by-nc/2.0/legalcode).
