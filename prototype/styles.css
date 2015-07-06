@@ -8,19 +8,12 @@
     content:"\e114";
 }
 
-.product-data {
-
-
-}
-.product-header{
+.product-header {
     font-weight: bold;
     font-size: larger;
     margin: 5px;
 }
-.productRow {
-
-}
 
 .productRowAlternate {
-    background: rgb(240,240,240);
+    background: rgb(220,220,240);
 }

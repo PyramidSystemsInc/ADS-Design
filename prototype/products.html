@@ -14,17 +14,17 @@
 			<span class="product-header">Retailer</span>
 		</div>
 	</div>
-	<div class="row" ng-repeat="x in vm.data.results" style="border: 1px solid gray;" ng-class-even="'productRow productRowAlternate'">
+	<div class="row" ng-repeat="x in vm.data.results" style="border: 1px solid gray;" ng-class-even="'productRowAlternate'">
 		<div class="col-md-5 col-xs-12">
-			<span class="product-data">
+			<span>
 				<button class="btn-link" style="text-align:left" ng-click="vm.viewDetail(x.id)">{{x.openfda.brand_name[0]}}</button>
 			</span>
 		</div>
 		<div class="col-md-2 col-xs-6">
-			<span class="product-data" style="margin-left:10px">$4.20</span>
+			<span style="margin-left:10px">{{vm.getPrice(x.id)}}</span>
 		</div>
 		<div class="col-md-3 col-xs-6">
-			<span class="product-data">Costco</span>
+			<span>Costco</span>
 		</div>
 	</div>
 </div>
