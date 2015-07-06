@@ -1,7 +1,7 @@
 ﻿# ADS RFQ Pool One Design
 
 ### Deliverables
-1. [Pool Two Prototype Location](https://ads-design-prototype.herokuapp.com)
+1. [Pool One Prototype Location](https://ads-design-prototype.herokuapp.com)
 2. [Pool One Repository on GitHub](https://github.com/PyramidSystemsInc/ADS-Design)
 3. Summary of Approach: README.md (this file)
 4. Product Backlog: [Live on Trello](https://trello.com/b/S1uBdwEg/product-backlog), final snapshot in /process/
