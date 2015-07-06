@@ -28,8 +28,8 @@ angular.module('ads-prototype', ['ui.router', 'ngAnimate'])
      };
  }])
 
- .controller('ProductDetailController', ['$scope', '$state', '$http', '$stateParams',
-   function($scope, $state, $http, $stateParams) {
+ .controller('ProductDetailController', ['$scope', '$state', '$http', '$stateParams', '$window',
+   function($scope, $state, $http, $stateParams, $window) {
      var vm = this;
      $scope.name = "ProductDetailController";
      
@@ -44,6 +44,11 @@ angular.module('ads-prototype', ['ui.router', 'ngAnimate'])
            }
          }
         });
+      var currentWidth = angular.element($window).width();
+      vm.small = false;
+      if (currentWidth < 700) {
+        vm.small = true;
+      }
      
      vm.backToResults = function () {
        $state.go('products');
