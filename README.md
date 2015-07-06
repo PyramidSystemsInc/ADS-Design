@@ -21,14 +21,32 @@ Over the course of the project, we continually revised our user stories based on
 
 Once a minimum viable product was built and tested, further prototype development concentrated on responsiveness, clarity of navigation, and a smooth user experience. Where implementation was constrained by the current API limitations, those features were added to a separate design prototype, to maintain a Pool One submission that addressed the key findings from our users. Future releases should consider additional features requested by users, such as allowing each user to build up a catalog of individually meaningful search results and filters, and should investigate the feasibility of adding other data sets for pricing, availability, and thesaurus information.
 
-The design and development life cycle of the prototype was carried out using open-source or freely available tools and technologies. Usability testing was conducted with [GoToMeeting Free](http://free.gotomeeting.com) to broadcast testing sessions for remote note-taking, with notes taken directly to the GitHub repository. The results and recommendations based on usability tests were disseminated to the team in person and through the Trello backlog. Wireframes, scenarios and user profiles were created on the team's physical whiteboards. The Style Tile was created in [Adobe Illustrator](http://www.adobe.com/illustrator/) and distributed in PDF and SVG format, using the publicly available [Font Awesome](http://fortawesome.github.io/Font-Awesome/) icon library and [Open Sans](https://www.google.com/fonts#UsePlace:use/Collection:Open+Sans) fonts. The Process Map was recorded using [draw.io](https://www.draw.io/). The design prototype was written in [JavaScript](https://en.wikipedia.org/wiki/JavaScript), [HTML](https://en.wikipedia.org/wiki/HTML), and [TypeScript](http://www.typescriptlang.org/). It uses  [Bootstrap](http://getbootstrap.com) and [AngularJS](http://angularjs.org/) as front-end UI frameworks for rapid development, and [NodeJS](https://nodejs.org/) for back-end support. For detailed licenses, see Licensing Information in this readme file.
+The design and development life cycle of the prototype was carried out using open-source or freely available tools and technologies. Usability testing was conducted with [GoToMeeting Free](http://free.gotomeeting.com) to broadcast testing sessions for remote note-taking, with notes taken directly to the GitHub repository. The results and recommendations based on usability tests were disseminated to the team in person and through the Trello backlog. Wireframes, scenarios and user profiles were created on the team's physical whiteboards. The Style Tile was created in [Adobe Illustrator](http://www.adobe.com/illustrator/) and distributed in PDF and SVG format, using the publicly available [Font Awesome](http://fortawesome.github.io/Font-Awesome/) and [Glyphicons](http://glyphicons.com) icon libraries and [Open Sans](https://www.google.com/fonts#UsePlace:use/Collection:Open+Sans) fonts. The Process Map was recorded using [draw.io](https://www.draw.io/). The design prototype was written in [JavaScript](https://en.wikipedia.org/wiki/JavaScript), [HTML](https://en.wikipedia.org/wiki/HTML), and [TypeScript](http://www.typescriptlang.org/). It uses  [Bootstrap](http://getbootstrap.com) and [AngularJS](http://angularjs.org/) as front-end UI frameworks for rapid development, and [NodeJS](https://nodejs.org/) for back-end support. For detailed licenses, see Licensing Information in this readme file.
 
 Due to time constraints, testing was limited to the functional behavior of the application under ordinary use. Future releases should include reviews to ensure compliance with [Section 508](http://www.section508.gov/section-508-standards-guide#Web) and [WCAG 2.0](http://www.w3.org/TR/WCAG20/#guidelines) accessibility standards, and [Plain Language](http://www.plainlanguage.gov/howto/quickreference/weblist.cfm) readability standards, including screen reader software.
+
+### Technologies Used
+- Analysis and Process Management
+  - [GoToMeeting Free](http://free.gotomeeting.com)
+  - [Trello](http://www.trello.com)
+  - [draw.io](https://www.draw.io/)
+- Languages
+  - [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
+  - [HTML](https://en.wikipedia.org/wiki/HTML)
+  - [TypeScript](http://www.typescriptlang.org/)
+- Frameworks
+  - [Bootstrap](http://getbootstrap.com)
+  - [AngularJS](http://angularjs.org/)
+  - [NodeJS](https://nodejs.org/)
+- Libraries
+  - [Font Awesome](http://fortawesome.github.io/Font-Awesome/)
+  - [Glyphicons](http://glyphicons.com)
+  - [Open Sans](https://www.google.com/fonts#UsePlace:use/Collection:Open+Sans)
 
 ### Installation Instructions
 In order to run the design prototype locally:
 
-1. Install [node.js](https://nodejs.org) (if not already installed)
+1. Install Git and [node.js](https://nodejs.org) (if not already installed)
 2. Pull this GitHub repository to a local directory 
 3. Open a command line, navigate to the /prototype directory, and run:
 
@@ -37,4 +55,4 @@ In order to run the design prototype locally:
 
 ### Licensing Information
 
-This prototype is licensed under the MIT license, making it free and open; for details, see the LICENSE file. The MIT license also applies to Angular, Bootstrap, and Node, while TypeScript is used according to a similar Apache [license](https://github.com/Microsoft/TypeScript/blob/master/LICENSE.txt). JavaScript and HTML are open standards. Stock photos used are from [Flickr](http://www.flickr.com) under the [Creative Commons NonCommercial 2.0 license](https://creativecommons.org/licenses/by-nc/2.0/legalcode).
+This prototype is licensed under the MIT license, making it free and open; for details, see the LICENSE file. The MIT license also applies to Angular, Bootstrap, and Node, while TypeScript is used according to a similar Apache [license](https://github.com/Microsoft/TypeScript/blob/master/LICENSE.txt). JavaScript and HTML are open standards. Stock photos used are from [Flickr](http://www.flickr.com) under the [Creative Commons NonCommercial 2.0 license](https://creativecommons.org/licenses/by-nc/2.0/legalcode). Glyphicons are used under the [CC BY 3.0 license](http://http://creativecommons.org/licenses/by/3.0/).
