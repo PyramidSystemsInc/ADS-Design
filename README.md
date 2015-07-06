@@ -30,8 +30,10 @@ In order to run the design prototype:
 
 1. Install [node.js](https://nodejs.org) (if not already installed)
 2. Pull this GitHub repository to a local directory 
-3. Open a command line, navigate to the /prototype directory, and run "node server.js" (without the quotation marks)
-4. Open a web browswer and navigate to localhost:8080
+3. Open a command line, navigate to the /prototype directory, and run:
+
+        node server.js
+4. Open a web browswer and navigate to http://localhost:8080
 
 ### Licensing Information
 
