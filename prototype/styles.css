@@ -2,7 +2,7 @@
     font-family:'Glyphicons Halflings';
     content:"\e113";
     float: right;
-    color: grey;
+    color: fff;
 }
 .panel-heading a.collapsed:after {
     content:"\e114";
