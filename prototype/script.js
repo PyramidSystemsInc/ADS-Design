@@ -20,7 +20,8 @@ angular.module('ads-prototype', ['ui.router', 'ngAnimate'])
           vm.data = res.data;
           if (vm.data && vm.data.results) {
             for (var i = 0; i < vm.data.results.length; i++) {
-              vm.data.results[i].price = vm.getPrice(vm.data.results[i].id);              
+              vm.data.results[i].price = vm.getPrice();
+              vm.data.results[i].retailer = vm.getRetailer();
             }
           }
         });
@@ -34,6 +35,10 @@ angular.module('ads-prototype', ['ui.router', 'ngAnimate'])
      vm.getPrice = function () {
        // we can decide to get price by item id later
        return '$' + (Math.floor(((Math.random() * 800) + 200))/100.0).toFixed(2); 
+     };
+     var retailers = ['CVS', 'Target', 'Amazon', 'Walgreens', 'Rite Aid', 'Cotco'];
+     vm.getRetailer = function () {
+      return retailers[Math.floor(Math.random() * (retailers.length - 1))];
      };
  }])
 
