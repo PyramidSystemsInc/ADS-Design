@@ -51,7 +51,7 @@ angular.module('ads-prototype', ['ui.router', 'ngAnimate'])
  }])
 
 .config(function($stateProvider, $urlRouterProvider) {
-  $urlRouterProvider.otherwise('/search');
+  $urlRouterProvider.when('', '/search');
   $stateProvider
   .state('search',
     {
