@@ -31,6 +31,7 @@ angular.module('ads-prototype', ['ui.router', 'ngAnimate'])
      };
      vm.viewDetail = function (itemId) {
        $state.go('product', {'id': itemId});
+       window.scrollTo(0, 0);
      };
      vm.getPrice = function () {
        // we can decide to get price by item id later

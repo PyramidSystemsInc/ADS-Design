@@ -11,6 +11,112 @@
   },
   "results": [
     {
+      "set_id": "fa951d50-b79c-4161-8c81-fcf386b0964e",
+      "dosage_and_administration_table": [
+        "<table width=\"65%\"> <col width=\"25%\" align=\"left\" valign=\"top\"/> <col width=\"75%\" align=\"left\" valign=\"top\"/> <tbody> <tr styleCode=\"Botrule\"> <td styleCode=\"Rrule\">adults and children 12 years and over</td> <td> <list listType=\"unordered\" styleCode=\"square\"> <item>take 2 caplets every 6 hours while symptoms last</item> <item>do not take more than 6 caplets in 24 hours, unless directed by a doctor</item> <item>do not use for more than 10 days unless directed by a doctor</item> </list> </td> </tr> <tr> <td styleCode=\"Rrule\">children under 12 years</td> <td>ask a doctor</td> </tr> </tbody> </table>"
+      ],
+      "indications_and_usage": [
+        "Uses temporarily relieves minor aches and pains due to: the common cold headache backache minor pain of arthritis toothache muscular aches premenstrual and menstrual cramps temporarily reduces fever"
+      ],
+      "stop_use": [
+        "Stop use and ask a doctor if pain gets worse or lasts more than 10 days fever gets worse or lasts more than 3 days new symptoms occur redness or swelling is present These could be signs of a serious condition."
+      ],
+      "keep_out_of_reach_of_children": [
+        "Keep out of reach of children."
+      ],
+      "ask_doctor": [
+        "Ask a doctor before use if you have liver disease"
+      ],
+      "questions": [
+        "Questions or comments? call 1-877-895-3665"
+      ],
+      "dosage_and_administration": [
+        "Directions do not take more than directed (see overdose warning) adults and children 12 years and over take 2 caplets every 6 hours while symptoms last do not take more than 6 caplets in 24 hours, unless directed by a doctor do not use for more than 10 days unless directed by a doctor children under 12 years ask a doctor"
+      ],
+      "purpose": [
+        "Purpose Pain reliever/fever reducer"
+      ],
+      "storage_and_handling": [
+        "Other information store between 20-25°C (68-77°F) do not use if carton or pouch is open see bottom panel for lot number and expiration date"
+      ],
+      "ask_doctor_or_pharmacist": [
+        "Ask a doctor or pharmacist before use if you are taking the blood thinning drug warfarin"
+      ],
+      "do_not_use": [
+        "Do not use with any other drug containing acetaminophen (prescription or nonprescription). If you are not sure whether a drug contains acetaminophen, ask a doctor or pharmacist. if you are allergic to acetaminophen or any of the inactive ingredients in this product"
+      ],
+      "version": "1",
+      "id": "3a3dfa87-460b-4171-b521-00553be0092d",
+      "package_label_principal_display_panel": [
+        "PRINCIPAL DISPLAY PANEL - 2 Caplet Pouch Carton See New Warnings Information & Directions TYLENOL® Pain Reliever Fever Reducer Acetaminophen EXTRA STRENGTH For Adults Caplets 2 CAPLETS 500 mg each Lil' Drug Store® Principal Display Panel - 2 Caplet Pouch Carton"
+      ],
+      "pregnancy_or_breast_feeding": [
+        "If pregnant or breast-feeding, ask a health professional before use."
+      ],
+      "active_ingredient": [
+        "Active ingredient (in each caplet) Acetaminophen 500 mg"
+      ],
+      "inactive_ingredient": [
+        "Inactive ingredients carnauba waxcontains one or more of these ingredients, castor oil, corn starch, FD&C red #40 aluminum lake, hypromellose, magnesium stearate, polyethylene glycol, powdered cellulose, pregelatinized starch, propylene glycol, shellac, sodium starch glycolate, titanium dioxide"
+      ],
+      "@epoch": 1416451272.131902,
+      "effective_time": "20121226",
+      "openfda": {
+        "spl_id": [
+          "3a3dfa87-460b-4171-b521-00553be0092d"
+        ],
+        "product_ndc": [
+          "66715-9747"
+        ],
+        "rxcui": [
+          "209459",
+          "198440"
+        ],
+        "substance_name": [
+          "ACETAMINOPHEN"
+        ],
+        "spl_set_id": [
+          "fa951d50-b79c-4161-8c81-fcf386b0964e"
+        ],
+        "original_packager_product_ndc": [
+          "50580-449"
+        ],
+        "product_type": [
+          "HUMAN OTC DRUG"
+        ],
+        "manufacturer_name": [
+          "Lil' Drug Store Products, Inc."
+        ],
+        "brand_name": [
+          "TYLENOL EXTRA STRENGTH"
+        ],
+        "route": [
+          "ORAL"
+        ],
+        "package_ndc": [
+          "66715-9747-2",
+          "66715-9747-3",
+          "66715-9747-1"
+        ],
+        "generic_name": [
+          "ACETAMINOPHEN"
+        ],
+        "application_number": [
+          "part343"
+        ]
+      },
+      "spl_product_data_elements": [
+        "TYLENOL EXTRA STRENGTH Acetaminophen Acetaminophen Acetaminophen carnauba wax castor oil starch, corn FD&C red no. 40 aluminum oxide hypromelloses magnesium stearate polyethylene glycols powdered cellulose propylene glycol shellac titanium dioxide TYLENOL;500"
+      ],
+      "warnings": [
+        "Warnings Liver warning This product contains acetaminophen. The maximum daily dose of this product is 6 caplets (3,000 mg) in 24 hours. Severe liver damage may occur if you take more than 4,000 mg of acetaminophen in 24 hours with other drugs containing acetaminophen 3 or more alcoholic drinks every day while using this product Do not use with any other drug containing acetaminophen (prescription or nonprescription). If you are not sure whether a drug contains acetaminophen, ask a doctor or pharmacist. if you are allergic to acetaminophen or any of the inactive ingredients in this product Ask a doctor before use if you have liver disease Ask a doctor or pharmacist before use if you are taking the blood thinning drug warfarin Stop use and ask a doctor if pain gets worse or lasts more than 10 days fever gets worse or lasts more than 3 days new symptoms occur redness or swelling is present These could be signs of a serious condition. If pregnant or breast-feeding, ask a health professional before use. Keep out of reach of children. Overdose warning Taking more than the recommended dose (overdose) may cause liver damage. In case of overdose, get medical help or contact a Poison Control Center right away. (1-800-222-1222) Quick medical attention is critical for adults as well as for children even if you do not notice any signs or symptoms."
+      ],
+      "spl_unclassified_section": [
+        "Drug Facts",
+        "Repackaged and distributed by: Lil' Drug Store Products, Inc., 1201 Continental Place NE Cedar Rapids, IA 52402"
+      ]
+    },
+    {
       "dosage_and_administration_table": [
         "<table width=\"65%\"> <caption>Dosing Chart</caption> <col align=\"center\" valign=\"middle\" width=\"33%\"/> <col align=\"center\" valign=\"middle\" width=\"34%\"/> <col align=\"center\" valign=\"middle\" width=\"33%\"/> <thead> <tr> <th styleCode=\"Lrule Rrule\">Weight (lb)</th> <th styleCode=\"Rrule\">Age (yr)</th> <th styleCode=\"Rrule\">Dose (mL)<footnote>or as directed by a doctor</footnote> </th> </tr> </thead> <tbody> <tr styleCode=\"Botrule\"> <td styleCode=\"Lrule Rrule\">under 24</td> <td styleCode=\"Rrule\">under 2 years</td> <td styleCode=\"Rrule\">ask a doctor</td> </tr> <tr> <td styleCode=\"Lrule Rrule\">24-35</td> <td styleCode=\"Rrule\">2-3 years</td> <td styleCode=\"Rrule\">5 mL</td> </tr> </tbody> </table>"
       ],
@@ -3773,112 +3879,6 @@
       "effective_time": "20130403",
       "when_using": [
         "When using this product do not exceed recommended dose"
-      ]
-    },
-    {
-      "set_id": "fa951d50-b79c-4161-8c81-fcf386b0964e",
-      "dosage_and_administration_table": [
-        "<table width=\"65%\"> <col width=\"25%\" align=\"left\" valign=\"top\"/> <col width=\"75%\" align=\"left\" valign=\"top\"/> <tbody> <tr styleCode=\"Botrule\"> <td styleCode=\"Rrule\">adults and children 12 years and over</td> <td> <list listType=\"unordered\" styleCode=\"square\"> <item>take 2 caplets every 6 hours while symptoms last</item> <item>do not take more than 6 caplets in 24 hours, unless directed by a doctor</item> <item>do not use for more than 10 days unless directed by a doctor</item> </list> </td> </tr> <tr> <td styleCode=\"Rrule\">children under 12 years</td> <td>ask a doctor</td> </tr> </tbody> </table>"
-      ],
-      "indications_and_usage": [
-        "Uses temporarily relieves minor aches and pains due to: the common cold headache backache minor pain of arthritis toothache muscular aches premenstrual and menstrual cramps temporarily reduces fever"
-      ],
-      "stop_use": [
-        "Stop use and ask a doctor if pain gets worse or lasts more than 10 days fever gets worse or lasts more than 3 days new symptoms occur redness or swelling is present These could be signs of a serious condition."
-      ],
-      "keep_out_of_reach_of_children": [
-        "Keep out of reach of children."
-      ],
-      "ask_doctor": [
-        "Ask a doctor before use if you have liver disease"
-      ],
-      "questions": [
-        "Questions or comments? call 1-877-895-3665"
-      ],
-      "dosage_and_administration": [
-        "Directions do not take more than directed (see overdose warning) adults and children 12 years and over take 2 caplets every 6 hours while symptoms last do not take more than 6 caplets in 24 hours, unless directed by a doctor do not use for more than 10 days unless directed by a doctor children under 12 years ask a doctor"
-      ],
-      "purpose": [
-        "Purpose Pain reliever/fever reducer"
-      ],
-      "storage_and_handling": [
-        "Other information store between 20-25°C (68-77°F) do not use if carton or pouch is open see bottom panel for lot number and expiration date"
-      ],
-      "ask_doctor_or_pharmacist": [
-        "Ask a doctor or pharmacist before use if you are taking the blood thinning drug warfarin"
-      ],
-      "do_not_use": [
-        "Do not use with any other drug containing acetaminophen (prescription or nonprescription). If you are not sure whether a drug contains acetaminophen, ask a doctor or pharmacist. if you are allergic to acetaminophen or any of the inactive ingredients in this product"
-      ],
-      "version": "1",
-      "id": "3a3dfa87-460b-4171-b521-00553be0092d",
-      "package_label_principal_display_panel": [
-        "PRINCIPAL DISPLAY PANEL - 2 Caplet Pouch Carton See New Warnings Information & Directions TYLENOL® Pain Reliever Fever Reducer Acetaminophen EXTRA STRENGTH For Adults Caplets 2 CAPLETS 500 mg each Lil' Drug Store® Principal Display Panel - 2 Caplet Pouch Carton"
-      ],
-      "pregnancy_or_breast_feeding": [
-        "If pregnant or breast-feeding, ask a health professional before use."
-      ],
-      "active_ingredient": [
-        "Active ingredient (in each caplet) Acetaminophen 500 mg"
-      ],
-      "inactive_ingredient": [
-        "Inactive ingredients carnauba waxcontains one or more of these ingredients, castor oil, corn starch, FD&C red #40 aluminum lake, hypromellose, magnesium stearate, polyethylene glycol, powdered cellulose, pregelatinized starch, propylene glycol, shellac, sodium starch glycolate, titanium dioxide"
-      ],
-      "@epoch": 1416451272.131902,
-      "effective_time": "20121226",
-      "openfda": {
-        "spl_id": [
-          "3a3dfa87-460b-4171-b521-00553be0092d"
-        ],
-        "product_ndc": [
-          "66715-9747"
-        ],
-        "rxcui": [
-          "209459",
-          "198440"
-        ],
-        "substance_name": [
-          "ACETAMINOPHEN"
-        ],
-        "spl_set_id": [
-          "fa951d50-b79c-4161-8c81-fcf386b0964e"
-        ],
-        "original_packager_product_ndc": [
-          "50580-449"
-        ],
-        "product_type": [
-          "HUMAN OTC DRUG"
-        ],
-        "manufacturer_name": [
-          "Lil' Drug Store Products, Inc."
-        ],
-        "brand_name": [
-          "TYLENOL EXTRA STRENGTH"
-        ],
-        "route": [
-          "ORAL"
-        ],
-        "package_ndc": [
-          "66715-9747-2",
-          "66715-9747-3",
-          "66715-9747-1"
-        ],
-        "generic_name": [
-          "ACETAMINOPHEN"
-        ],
-        "application_number": [
-          "part343"
-        ]
-      },
-      "spl_product_data_elements": [
-        "TYLENOL EXTRA STRENGTH Acetaminophen Acetaminophen Acetaminophen carnauba wax castor oil starch, corn FD&C red no. 40 aluminum oxide hypromelloses magnesium stearate polyethylene glycols powdered cellulose propylene glycol shellac titanium dioxide TYLENOL;500"
-      ],
-      "warnings": [
-        "Warnings Liver warning This product contains acetaminophen. The maximum daily dose of this product is 6 caplets (3,000 mg) in 24 hours. Severe liver damage may occur if you take more than 4,000 mg of acetaminophen in 24 hours with other drugs containing acetaminophen 3 or more alcoholic drinks every day while using this product Do not use with any other drug containing acetaminophen (prescription or nonprescription). If you are not sure whether a drug contains acetaminophen, ask a doctor or pharmacist. if you are allergic to acetaminophen or any of the inactive ingredients in this product Ask a doctor before use if you have liver disease Ask a doctor or pharmacist before use if you are taking the blood thinning drug warfarin Stop use and ask a doctor if pain gets worse or lasts more than 10 days fever gets worse or lasts more than 3 days new symptoms occur redness or swelling is present These could be signs of a serious condition. If pregnant or breast-feeding, ask a health professional before use. Keep out of reach of children. Overdose warning Taking more than the recommended dose (overdose) may cause liver damage. In case of overdose, get medical help or contact a Poison Control Center right away. (1-800-222-1222) Quick medical attention is critical for adults as well as for children even if you do not notice any signs or symptoms."
-      ],
-      "spl_unclassified_section": [
-        "Drug Facts",
-        "Repackaged and distributed by: Lil' Drug Store Products, Inc., 1201 Continental Place NE Cedar Rapids, IA 52402"
       ]
     }
   ]
