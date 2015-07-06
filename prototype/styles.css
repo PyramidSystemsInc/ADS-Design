@@ -17,3 +17,12 @@
 .productRowAlternate {
     background: rgb(220,220,240);
 }
+
+.panel-header-collapsible {
+    cursor: pointer;
+}
+
+.panel-tight {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
