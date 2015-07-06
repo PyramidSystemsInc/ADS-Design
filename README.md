@@ -1,16 +1,15 @@
 ﻿# ADS RFQ Pool One Design
 
 ### Deliverables
-1. [Pool One Prototype Location](http://pyramidopenfdadev.herokuapp.com)
-2. [Pool two Prototype Location](https://ads-design-prototype.herokuapp.com)
-3. [Pool One Repository on GitHub](https://github.com/PyramidSystemsInc/ADS-Design)
-4. Summary of Approach: README.md (this file)
-5. Product Backlog: [Live on Trello](https://trello.com/b/S1uBdwEg/product-backlog), final snapshot in /process/
-6. User Profiles, Scenarios, Process Map, Journey Map: /analysis/
-7. Style Tile, Wireframes: /design/
-8. Usability Testing and Results: /usability/
-9. Labor Categories and LOE: /rfq/
-10. Prototype Creation Process Documentation: /process/
+1. [Pool Two Prototype Location](https://ads-design-prototype.herokuapp.com)
+2. [Pool One Repository on GitHub](https://github.com/PyramidSystemsInc/ADS-Design)
+3. Summary of Approach: README.md (this file)
+4. Product Backlog: [Live on Trello](https://trello.com/b/S1uBdwEg/product-backlog), final snapshot in /process/
+5. User Profiles, Scenarios, Process Map, Journey Map: /analysis/
+6. Style Tile, Wireframes: /design/
+7. Usability Testing and Results: /usability/
+8. Labor Categories and LOE: /rfq/
+9. Prototype Creation Process Documentation: /process/
 
 ### Product Vision
 For people who want to find over-the-counter medications free of certain ingredients for themselves or their family. SHIELD is a simple and responsive web app that allows people to quickly and easily see if a product has an ingredient they're allergic to, or find alternatives that are safe to use.
