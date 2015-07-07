@@ -1,13 +1,67 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700);
+/*! normalize.css v3.0.0 | MIT License | git.io/normalize */html{
+	font-family:sans-serif;
+	-ms-text-size-adjust:100%;
+	-webkit-text-size-adjust:100%
+}
+body {
+	font-family: "Open Sans","Lucida Grande","Calibri",Helvetica,Arial,sans-serif;
+	font-size: 14px;
+	color: #333;
+}
+h1, h2, h3 {
+	color: #444;
+	font-family: "Open Sans","Lucida Grande","Calibri",Helvetica,Arial,sans-serif;
+	font-weight: 500;
+	line-height: 1.1;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+h1 {
+	font-size: 36px
+}
+h2{
+	font-size: 30px
+}
+h3 {
+	font-size: 24px
+}
+a {
+	color: #2994FF
+}
 .panel-heading a:after {
     font-family:'Glyphicons Halflings';
     content:"\e113";
     float: right;
     color: fff;
 }
+.panel-heading a:hover {
+	text-decoration: none;
+}
 .panel-heading a.collapsed:after {
     content:"\e114";
 }
-
+.panel-primary > .panel-heading {
+	background-color: #4F75B2;
+	border-color: #3F5E8F;
+	color: #fff;
+}
+.panel-info {
+	border-color: #AFCCEF;
+}
+.panel-info > .panel-heading {
+	background-color: #CBE0F4;
+	border-color: #AFCCEF;
+	color: #3F5E8F;
+}
+.panel-warning {
+	border-color: #EBCCD1;
+}
+.panel-warning > .panel-heading {
+	background-color: #F2DEDE;
+	border-color: #EBCCD1;
+	color: #A94442;
+}
 .product-header {
     font-weight: bold;
     font-size: larger;
@@ -24,5 +78,5 @@
 
 .panel-tight {
     margin-top: 0px;
-    margin-bottom: 0px;
+    margin-bottom: 5px;
 }
