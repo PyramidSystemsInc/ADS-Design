@@ -5,45 +5,36 @@
 	</div>
 	<div class="panel panel-default" style="margin-top: 5px;">
 		<div class="panel-heading">
-			Search Results
+			<span class="badge">31</span> Search Results
 		</div>
 		<div class="panel-body">
 			<div class="row">
 				<div class="col-xs-12">
-					Filter Options
+					Label contains:
 				</div>
 				<div class="col-xs-12">
-					<div class="col-xs-6">
-						Manufacturer: <input type="text" class="form-control"></input>
-					</div>
-					<div class="col-xs-6">
-						Label contains: <input type="text" class="form-control"></input>
+					<div>
+						<input type="text" class="form-control" value="tylenol"></input>
 					</div>
 				</div>
 			</div>
 			<div class="row productRowAlternate" style="margin-top: 10px;">
-				<div class="col-sm-7 col-xs-12">
+				<div class="col-sm-7">
 					<span class="product-header">Product</span>
 				</div>
-				<div class="col-sm-2 col-xs-6">
-					<span class="product-header">Price
+				<div class="col-sm-5">
+					<span class="product-header">Purpose
 						<span>
 				</div>
-				<div class="col-sm-3 col-xs-6 ">
-					<span class="product-header">Retailer</span>
-				</div>
 			</div>
-			<div class="row" ng-repeat="x in vm.data.results" style="border: 1px solid gray;" ng-class-even="'productRowAlternate'">
-				<div class="col-sm-7 col-xs-12">
+			<div class="row" ng-repeat="x in vm.data.results" style="border-top: 1px solid rgb(221, 221, 221); padding-top:4px; padding-top:4px;" ng-class-even="'productRowAlternate'">
+				<div class="col-sm-7">
 					<span>
 						<button class="btn-link" style="text-align:left;padding:0px;border-left:0px solid white" ng-click="vm.viewDetail(x.id)">{{x.openfda.brand_name[0]}}</button>
 					</span>
 				</div>
-				<div class="col-sm-2 col-xs-6">
-					<span>{{x.price}}</span>
-				</div>
-				<div class="col-sm-3 col-xs-6">
-					<span>{{x.retailer}}</span>
+				<div class="col-sm-5">
+					<span>Pain reliever/fever reducer</span>
 				</div>
 			</div>
 		</div>		
