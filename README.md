@@ -43,6 +43,8 @@ Due to time constraints, testing was limited to the functional behavior of the a
   - [Open Sans](https://www.google.com/fonts#UsePlace:use/Collection:Open+Sans)
 
 ### Installation Instructions
+This prototype is hosted remotely on [Heroku](https://ads-design-prototype.herokuapp.com), which does not support Internet Explorer 9 or earlier. 
+
 In order to run the design prototype locally:
 
 1. Install Git and [node.js](https://nodejs.org) (if not already installed)
